@@ -1,6 +1,11 @@
 body {
+  background-image: url("Back.jpg");
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
 }
 
 p {
@@ -11,18 +16,43 @@ p {
 #content {
   margin-bottom: 20px;
   margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
-}
-
-a {
-  color: black;
+  height: 80%;
+  width: 80%;
 }
 
 #picture {
   float: right;
   height: 257px;
 }
+#pelda
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  display: block;
+}
+
+p
+{
+  line-height: 120%;
+  text-indent: 0;
+}
+
+a {
+  color: black;
+}
+a:hover
+{
+  text-decoration: none;
+  color: red;
+}
+
 
 h1 {
   font-variant: small-caps;
@@ -37,4 +67,20 @@ li {
 table {
   width: 80%;
   margin: auto;
+}
+
+th,td
+{
+  text-align: center;
+  border: 1px solid gray;
+}
+th
+{
+  background-color: #087AC8;
+  color: white;
+}
+
+span.operand
+{
+  color: #087AC8;
 }
